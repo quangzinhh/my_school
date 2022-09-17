@@ -1,0 +1,131 @@
+
+.item {
+    display: inline-block;
+    line-height: 60px; 
+    font-size: 16px;
+    color: black;
+}
+
+
+.nhc_logo {
+    margin: 0px 20px;
+    color: white;
+    line-height: 60px; 
+    font-size: 16px;
+    display: inline-block;
+    max-width: 46px;
+    height: 46px;
+    position: absolute;
+}
+
+li img {
+    height: 50px;
+}
+
+
+
+.schoolname {
+    margin-right: 300px;
+    display: inline-block;
+    line-height: 60px; 
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    left: 80px;
+}
+
+.list_item a {
+    font-size: 18px;
+}
+
+
+.nav {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top : 0;
+    z-index: 100;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav li .item {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 30px;
+    position: relative;
+}
+
+.nav li:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.list {
+    list-style-type: none;
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.items {
+    margin-right: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.btn {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    padding: 5px;
+    color: #000;
+    font-size: 18px;
+}
+
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .schoolname {
+        display: none;
+    }
+}
+
+@media (max-width: 740px) {
+    .nav {
+        width: 100%;
+        margin-right: 30px;
+    }
+    .schoolname {
+        display: none;
+    }
+    .list {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .items:nth-child(1){
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        margin-top: 50px;
+    }
+    .item {
+        display: block;
+    }
+    .items {
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        text-align: center;
+        margin-right: 0px;
+        padding: 20px 0;
+        background-color: gainsboro;
+    }
+    .btn {
+        display: block;
+    }
+}
