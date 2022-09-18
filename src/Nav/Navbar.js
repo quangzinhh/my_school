@@ -3,7 +3,6 @@ import AboutPage from '../Page/About'
 import UniformPage from '../Page/Uniform'
 import BlogPage from '../Page/Blog'
 import ContactPage from '../Page/Contact'
-import clsx from 'clsx'
 import styles from './Navbar.module.css'
 import {Routes, Route, Link} from 'react-router-dom'
 import React, {useState, useEffect} from 'react'
@@ -36,7 +35,7 @@ function ColorSchemesExample() {
     <>
       <div className={styles.nav}>
               <li className={styles.nhc_logo}>
-                  <img name='img1' src={require("../img/logo_nhc.png")} />
+                  <img alt='1' name='img1' src={require("../img/logo_nhc.png")} />
               </li>
               <li className={styles.schoolname}>
                         TRƯỜNG THPT NGUYỄN HỮU CẢNH

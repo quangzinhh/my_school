@@ -4,7 +4,6 @@ import clsx from 'clsx'
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container} from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 
 function Home() {
@@ -22,9 +21,9 @@ function Home() {
             interval={2000}
             className = {styles.slide}
           >
-              <div className={styles.img_slider}> <img src={require("../img/anh_thayco.jpg")} /> </div>
-              <div className={styles.img_slider}> <img src={require("../img/tiepsucmuathi.jpg")} /> </div>
-              <div className={styles.img_slider}> <img src={require("../img/hoaphuongdo.jpg")} /> </div>
+              <div className={styles.img_slider}> <img alt='1' src={require("../img/anh_thayco.jpg")} /> </div>
+              <div className={styles.img_slider}> <img alt='2' src={require("../img/tiepsucmuathi.jpg")} /> </div>
+              <div className={styles.img_slider}> <img alt='3' src={require("../img/hoaphuongdo.jpg")} /> </div>
         </AutoplaySlider>
       </div>
       <div className={styles.content}>

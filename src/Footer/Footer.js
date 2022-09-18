@@ -34,12 +34,12 @@ function Footer () {
                     </li>
                     <li>
                         <p>
-                            <AiFillPhone className={styles.iconZ}/><a href="#">0296 3611 406</a>
+                            <AiFillPhone className={styles.iconZ}/><a href='https://www.facebook.com/'>0296 3611 406</a>
                             <br />
                             <AiFillFacebook className={styles.iconZ}/><a href="https://www.facebook.com/doantruongthptnguyenhuucanhag">Contact</a></p>
                     </li>
                     <li>
-                        <p><AiOutlineMail className={styles.iconZ}/><a href="#">maithanhtungnhc@gmail.com</a></p>
+                        <p><AiOutlineMail className={styles.iconZ}/><a href='https://www.google.com/intl/vi/gmail/about/'>maithanhtungnhc@gmail.com</a></p>
                    </li>
                 </ul>
             </div>
