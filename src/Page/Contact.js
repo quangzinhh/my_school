@@ -5,19 +5,19 @@ function Contact() {
   return (
     <>
       <div className={styles.form}>
-        <div className={styles.titlePage}><h1>CONTACT TO US</h1></div>
+        <div className={styles.titlePage}><h1>CONTACT WITH US</h1></div>
 <div className={styles.fish} id="fish"></div>
 <div className={styles.fish} id="fish2"></div>
 
 <form id="waterform" method="post" className={styles.form}>
 
   <div className={styles.formgroup} id="name-form">
-      <label for="name">Your name*</label>
+      <label for="name">Your name <div className={styles.mustFill}>*</div></label>
       <input type="text" id="name" name="name" />
   </div>
 
   <div className={styles.formgroup} id="email-form">
-      <label for="email">Your e-mail*</label>
+      <label for="email">Your e-mail <div className={styles.mustFill}>*</div></label>
       <input type="email" id="email" name="email" />
   </div>
 

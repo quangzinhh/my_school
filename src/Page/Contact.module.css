@@ -95,7 +95,7 @@ textarea{
 	overflow: auto;
 }
 input[type="submit"]{
-	background-color: #F90;
+	background-color: blue;
 	color: white;
 	height: 50px;
 	cursor: pointer;
@@ -108,7 +108,7 @@ input[type="submit"]{
 	transition: background-color 0.5s;
 }
 input[type="submit"]:hover{
-	background-color: #e58f0e;
+	background-color: #77bde0;
 	
 }
 label{
@@ -140,6 +140,11 @@ label{
 }
 .containerBtn {
     margin-bottom: 80px;
+}
+
+.mustFill {
+	display: inline-block;
+	color: red;
 }
 
 

@@ -337,6 +337,10 @@
     display: flex;
     margin: auto;
   }
+  .position {
+    max-width: 100%;
+    overflow:hidden;
+  }
 }
 
 @media (max-width: 740px) {

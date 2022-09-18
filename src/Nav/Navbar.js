@@ -7,7 +7,7 @@ import clsx from 'clsx'
 import styles from './Navbar.module.css'
 import {Routes, Route, Link} from 'react-router-dom'
 import React, {useState, useEffect} from 'react'
-
+import { FiMenu } from "react-icons/fi";
 
 function ColorSchemesExample() {
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -71,7 +71,7 @@ function ColorSchemesExample() {
             </ul>
       )}
 
-  <button onClick={toggleNav} className={styles.btn}>BTN</button>
+  <button onClick={toggleNav} className={styles.btn}><FiMenu/></button>
           
       </div>
       <Routes>
